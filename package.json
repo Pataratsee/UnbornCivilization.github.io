@@ -1,0 +1,20 @@
+{
+  "name": "unborn-civilization",
+  "version": "1.0.0",
+  "description": "Unborn Civilization — a gloomy browser city-builder and civilization game.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node server.mjs --port 8000 --open",
+    "serve": "node server.mjs --port 8000 --no-open",
+    "test": "node tests/smoke.mjs"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "playwright": "^1.49.1",
+    "three": "^0.128.0"
+  }
+}
